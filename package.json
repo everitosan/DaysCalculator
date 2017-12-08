@@ -1,0 +1,17 @@
+{
+  "name": "dayscalculator",
+  "version": "0.0.1",
+  "description": "A npm package to calculate available days based on a month and a year",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "date",
+    "days",
+    "available",
+    "calculate"
+  ],
+  "author": "everitosan",
+  "license": "MIT"
+}
