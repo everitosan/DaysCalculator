@@ -1,10 +1,11 @@
 {
   "name": "dayscalculator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A npm package to calculate available days based on a month and a year",
-  "main": "index.js",
+  "main": "dist/src/DaysCalculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "build": "babel src/DaysCalculator.js -d dist"
   },
   "keywords": [
     "date",
@@ -13,5 +14,11 @@
     "calculate"
   ],
   "author": "everitosan",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
 }
